@@ -1,0 +1,186 @@
+.focus-box {
+	background-position: center; font-family: "ËÎÌו"; position: relative;
+}
+.focus-container {
+	overflow: hidden; visibility: hidden; position: relative;
+}
+.focus-container .focus-item {
+	left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; position: absolute;
+}
+.focus-container .focus-item img {
+	border: 0px currentColor; border-image: none; width: 100%; height: 100%; vertical-align: top;
+}
+.focus-title-bar {
+	width: 100%; height: 30px; right: 0px; bottom: 0px; position: absolute; z-index: 40;
+}
+.focus-title-bg {
+	width: 100%; height: 100%; opacity: 0.7; background-color: rgb(0, 0, 0);
+}
+.focus-title {
+	padding: 0px 10px; left: 0px; top: 0px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; display: inline-block; white-space: nowrap; position: absolute; z-index: 50;
+}
+.focus-title a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.focus-text a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.focus-title a:hover {
+	color: rgb(229, 229, 229); text-decoration: none;
+}
+.focus-text a:hover {
+	color: rgb(229, 229, 229); text-decoration: none;
+}
+.focus-text-box {
+	left: 30px; top: 10px; width: 40%; height: 100px; position: absolute; z-index: 20;
+}
+.focus-text-bg {
+	width: 100%; height: 100%; opacity: 0.7; background-color: rgb(0, 0, 0);
+}
+.focus-text-inner {
+	left: 0px; top: 0px; height: 100%; overflow: hidden; position: absolute; z-index: 30;
+}
+.focus-text {
+	padding: 10px; color: rgb(255, 255, 255); line-height: 1.5; font-size: 13px;
+}
+.focus-navigation {
+	background: rgb(0, 0, 0); top: 50%; width: 30px; height: 50px; text-align: center; color: rgb(255, 255, 255); line-height: 50px; font-size: 30px; font-weight: bold; text-decoration: none; margin-top: -25px; display: block; position: absolute; z-index: 50; cursor: pointer; opacity: 0.7;
+}
+.focus-navigation:hover {
+	color: rgb(255, 255, 255); font-size: 30px; font-weight: bold; text-decoration: none;
+}
+.focus-navigation:active {
+	opacity: 1;
+}
+.focus-prev {
+	left: 0px;
+}
+.focus-next {
+	right: 0px;
+}
+.focus-pagination {
+	height: 20px; text-align: right; right: 10px; bottom: 0px; position: absolute; z-index: 60;
+}
+.focus-page {
+	border-radius: 5px; width: 10px; height: 10px; text-align: center; color: rgb(255, 255, 255); line-height: 10px; overflow: hidden; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; margin-right: 5px; display: inline-block; cursor: pointer; background-color: rgb(153, 153, 153);
+}
+.focus-page span {
+	display: none;
+}
+.focus-page:hover {
+	color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.focus-page-active {
+	background-color: rgb(255, 64, 25);
+}
+.sudy-select {
+	display: inline-block; position: relative; z-index: 100;
+}
+.sudy-select .select-name {
+	background: url("images/arrow01_down.gif") no-repeat right 50%; padding: 0px 22px 0px 5px; border: 1px solid rgb(204, 204, 204); border-image: none; line-height: 24px; display: inline-block; cursor: pointer;
+}
+.select-down .select-name {
+	background-image: url("images/arrow01_up.gif");
+}
+.select-down .select-open {
+	background-image: url("images/arrow01_down.gif");
+}
+.select-up .select-name {
+	background-image: url("images/arrow01_down.gif");
+}
+.select-up .select-open {
+	background-image: url("images/arrow01_up.gif");
+}
+.sudy-select .select-list {
+	border: 1px solid rgb(153, 153, 153); border-image: none; left: 0px; display: none; position: absolute; z-index: 100; background-color: rgb(255, 255, 255); _margin-top: _2px;
+}
+.sudy-select .select-list li {
+	line-height: 24px; white-space: nowrap; cursor: pointer;
+}
+.sudy-select .select-list li.hover {
+	color: rgb(255, 255, 255); background-color: rgb(0, 102, 204);
+}
+.sudy-pubdate {
+	border-radius: 5px; border: 1px solid rgb(141, 18, 18); border-image: none; width: 42px; height: 42px; overflow: hidden; background-color: rgb(242, 242, 242);
+}
+.sudy-pubdate span {
+	width: 100%; text-align: center; font-family: Tahoma, Geneva, sans-serif; font-size: 14px; font-weight: bold; display: block;
+}
+.sudy-pubdate span.pubdate-month {
+	height: 20px; color: rgb(255, 255, 255); line-height: 20px; font-size: 16px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 0, 0);
+}
+.sudy-pubdate span.pubdate-day {
+	height: 20px; border-top-color: rgb(229, 229, 229); border-top-width: 1px; border-top-style: solid; background-color: rgb(242, 242, 242);
+}
+.sudy-tab {
+	
+}
+.sudy-input {
+	font-family: Tahoma, Geneva, sans-serif; vertical-align: top; display: inline-block; position: relative; _display: inline;
+}
+.sudy-input input {
+	padding: 3px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; height: 17px; color: rgb(51, 51, 51); line-height: 17px; overflow: hidden; font-size: 13px; vertical-align: top; display: inline-block; background-color: rgb(255, 255, 255);
+}
+.sudy-input textarea {
+	padding: 3px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; height: 17px; color: rgb(51, 51, 51); line-height: 17px; overflow: hidden; font-size: 13px; vertical-align: top; display: inline-block; background-color: rgb(255, 255, 255);
+}
+.sudy-input textarea {
+	height: 85px;
+}
+.sudy-input .tip {
+	left: 10px; top: 0px; height: 25px; color: rgb(136, 136, 136); line-height: 25px; font-size: 13px; display: block; position: absolute;
+}
+.sudy-links {
+	display: inline-block;
+}
+.sudy-links .links-name {
+	background: url("images/arrow.png") no-repeat right 50% rgb(255, 255, 255); padding: 0px 20px 0px 5px; border: 1px solid rgb(68, 68, 68); border-image: none; line-height: 24px; font-weight: bold; display: inline-block; cursor: default;
+}
+.sudy-links .wrap-open {
+	
+}
+.sudy-links .links-wrap {
+	padding: 3px 0px; border: 1px solid rgb(68, 68, 68); border-image: none; left: 0px; bottom: 25px; line-height: 1.7; overflow: hidden; display: none; white-space: nowrap; position: absolute; z-index: 10000; background-color: rgb(255, 255, 255);
+}
+.sudy-links .links-wrap a {
+	padding: 0px 10px; display: block;
+}
+.sudy-links .links-wrap a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(30, 144, 255);
+}
+.sudy-scroll {
+	position: relative;
+}
+.sudy-scroll-wrap {
+	left: 0px; top: 0px; overflow: hidden; position: relative;
+}
+.sudy-scroll-nav .nav-prev {
+	background: rgb(102, 102, 102); top: 50%; width: 20px; height: 24px; text-align: center; color: rgb(255, 255, 255); line-height: 24px; font-family: Tahoma, Geneva, sans-serif; font-size: 18px; margin-top: -12px; display: block; position: absolute; z-index: 100; cursor: pointer;
+}
+.sudy-scroll-nav .nav-next {
+	background: rgb(102, 102, 102); top: 50%; width: 20px; height: 24px; text-align: center; color: rgb(255, 255, 255); line-height: 24px; font-family: Tahoma, Geneva, sans-serif; font-size: 18px; margin-top: -12px; display: block; position: absolute; z-index: 100; cursor: pointer;
+}
+.sudy-scroll-nav .nav-prev:active {
+	background: rgb(69, 69, 69);
+}
+.sudy-scroll-nav .nav-next:active {
+	background: rgb(69, 69, 69);
+}
+.sudy-scroll-nav .nav-next {
+	right: -22px;
+}
+.sudy-scroll-nav .nav-prev {
+	left: -22px;
+}
+.sudy-scroll-page {
+	left: 0px; width: 100%; height: 10px; text-align: center; bottom: -15px; position: absolute; z-index: 100;
+}
+.sudy-scroll-page .page-index {
+	background: rgb(102, 102, 102); margin: 0px 3px; border-radius: 5px; width: 10px; height: 10px; overflow: hidden; display: inline-block;
+}
+.sudy-scroll-page .active {
+	background: rgb(255, 51, 0);
+}
+.sudy-scroll-page .page-index span {
+	display: none;
+}

@@ -1,0 +1,27 @@
+.logo-window {
+	padding: 18px 0px;
+}
+.wp-header .wp-inner {
+	position: relative;
+}
+.lang-panel {
+	top: 0px; right: 10px; float: none; position: absolute;
+}
+.lang-window {
+	padding: 0px;
+}
+.lang-window .wp-menu {
+	float: right;
+}
+.search-panel {
+	width: 216px; clear: none; margin-top: 32px;
+}
+.top-nav-panel {
+	margin-top: 32px; _width: 460px;
+}
+.top-nav-panel .wp-menu {
+	float: right; white-space: nowrap;
+}
+.main-nav-panel .sub-menu {
+	_width: 150px;
+}
